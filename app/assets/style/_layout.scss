@@ -1,0 +1,169 @@
+//header
+.header {
+  font-size: 20px;
+  padding: 30px 88px;
+  .h1 a {
+    background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/logo.png?raw=true);
+    @include img-replace-text;
+    width: 80px;
+    height: 49px;
+  }
+  .nav li {
+    margin-left: 64px;
+  }
+  .nav a {
+    color: $light-text;
+    font-family: $font-tw;    
+  }
+}
+@include pad {
+    .header {  
+        padding-left: 39px;
+        padding-right: 39px;      
+        .nav li {
+            margin-left: 40px;
+          }
+    }
+}
+@include phone {
+    .header {
+        flex-direction: column;
+        .h1 a {
+            width: 48px;
+            height: 29px;            
+        }                     
+        .nav li {
+            text-align: center;
+            width: 50%;
+            margin-left: 0px;
+            border: 1px solid #ffffff;
+            padding-top: 8px;
+            padding-bottom: 8px;
+          }
+    }
+}
+//footer
+.footer {
+    font-family: $font-tw, $font-en;  
+    padding: 32px 0px 39px 0px;
+    color: $light-text;
+    a {
+        color: $light-text;
+    }    
+    .community {
+        width: 30%;
+    }   
+    .community-hiden {
+        display: none;
+    }
+    .phone {
+        width: 100%;
+        font-size: $font-size-4xl;
+        .contact-img {
+            @include img-middle (48px,48px);
+        }
+    }
+    .mail {
+        width: 100%;
+        font-size: $font-size-4xl;
+        .contact-img {
+            @include img-middle (48px,48px);
+        }
+    }
+    .hr {
+        width: 100%;                
+    }
+    .policy {
+        font-size: $font-size-sm;
+    }    
+}
+@include pad {
+    .footer {  
+        padding: 32px 0px 21px 0px;
+        .footer-nav {
+            margin-bottom: 16px;
+        }      
+        .footer-nav li:nth-child(-n+1) {
+            margin-right: 40px;
+        }    
+        .community {
+            margin-bottom: 16px;
+        }
+        .community li {
+            @include img-middle (24px,24px);
+        }
+        .phone {
+            width: 100%;
+            margin-bottom: 12px;
+            font-size: $font-size-md;
+            .contact-img {
+                @include img-middle (24px,24px);
+            }
+        }
+        .mail {
+            width: 100%;
+            margin-bottom: 20px;
+            font-size: $font-size-md;
+            .contact-img {
+                @include img-middle (24px,24px);
+            }
+        }
+        .hr {
+            width: 100%; 
+            margin-bottom: 24px;               
+        }
+        .policy li {
+            margin-right: 24px;
+        }  
+    }
+}
+@include phone {
+    .footer {
+        padding-top: 25px;
+        padding-bottom: 24px;
+        .footer-nav {
+            display: none;
+        }
+        .phone {
+            width: 50%;
+            font-size: $font-size-base;
+            margin-bottom: 6px;
+        }
+        .community {
+            display: none;
+        }
+        .community-hiden {
+            display: flex;
+        }
+        .community-hiden li {
+            @include img-middle (24px,24px);
+        }
+        .mail {
+            font-size: $font-size-base;
+            margin-bottom: 24px;
+        }
+        .hr {
+            margin-bottom: 16px;
+        }
+        .copyright {
+            font-size: $font-size-sm;
+            width: 100%;
+            margin-bottom: 8px;
+        }
+        .policy {
+            flex-wrap: wrap;
+        }
+        .policy li {
+            width: 100%;
+            margin: 0px 0px 8px 0px;
+            &:nth-child(2) {
+                margin: 0px;
+            }
+        }
+
+
+        
+
+
+    }
+}
