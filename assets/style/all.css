@@ -553,8 +553,8 @@ a:hover {
     width: 100%;
     font-size: 2.25rem; }
     .footer .phone .contact-img {
-      max-width: 48px;
-      max-height: 48px;
+      width: 48px;
+      height: 48px;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -568,8 +568,8 @@ a:hover {
     width: 100%;
     font-size: 2.25rem; }
     .footer .mail .contact-img {
-      max-width: 48px;
-      max-height: 48px;
+      width: 48px;
+      height: 48px;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -594,8 +594,8 @@ a:hover {
     .footer .community {
       margin-bottom: 16px; }
     .footer .community li {
-      max-width: 24px;
-      max-height: 24px;
+      width: 24px;
+      height: 24px;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -610,8 +610,8 @@ a:hover {
       margin-bottom: 12px;
       font-size: 1.25rem; }
       .footer .phone .contact-img {
-        max-width: 24px;
-        max-height: 24px;
+        width: 24px;
+        height: 24px;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -626,8 +626,8 @@ a:hover {
       margin-bottom: 20px;
       font-size: 1.25rem; }
       .footer .mail .contact-img {
-        max-width: 24px;
-        max-height: 24px;
+        width: 24px;
+        height: 24px;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -660,8 +660,8 @@ a:hover {
       display: -ms-flexbox;
       display: flex; }
     .footer .community-hiden li {
-      max-width: 24px;
-      max-height: 24px;
+      width: 24px;
+      height: 24px;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -702,8 +702,8 @@ a:hover {
 .service .service-item {
   width: 23%; }
   .service .service-item .service-item-img {
-    max-width: 100px;
-    max-height: 100px;
+    width: 100px;
+    height: 100px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -713,7 +713,7 @@ a:hover {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin: 0 auto 16px; }
+    margin: 0 auto 16px auto; }
   .service .service-item p {
     text-align: left; }
 
@@ -742,8 +742,8 @@ a:hover {
   height: auto; }
 
 .classical-text .classical-icon {
-  max-width: 44px;
-  max-height: 44px;
+  width: 44px;
+  height: 44px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -783,8 +783,8 @@ a:hover {
   .classical-list li .classical-img {
     margin-right: 30px; }
   .classical-text .classical-icon {
-    max-width: 40px;
-    max-height: 40px;
+    width: 40px;
+    height: 40px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -815,8 +815,8 @@ a:hover {
           -ms-transform: translate(-50%, -50%);
               transform: translate(-50%, -50%); }
       .classical-list li .classical-text .classical-icon {
-        max-width: 40px;
-        max-height: 40px;
+        width: 40px;
+        height: 40px;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
