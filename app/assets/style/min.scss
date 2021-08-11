@@ -29,8 +29,8 @@
 }
 //圖片置中
 @mixin img-middle ($width, $height) {
-    max-width: $width;
-    max-height: $height;
+    width: $width;
+    height: $height;
     display: flex;
     justify-content: center;
     align-items: center;

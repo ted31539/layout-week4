@@ -15,7 +15,7 @@
         //每塊card裡的圖片，處理圖片的外容器，置中
         .service-item-img {
             @include img-middle (100px, 100px);
-            margin: 0 auto 16px;
+            margin: 0 auto 16px auto;
         }
         //蓋過text-align-center 讓文字置左
         p {
